@@ -1,7 +1,7 @@
 #
 # This file is part of ModuleUnderscore
 #
-# This software is copyright (c) 2011 by Geistteufel <geistteufel@celogeek.fr>.
+# This software is copyright (c) 2011 by celogeek <me@celogeek.com>.
 #
 # This is free software; you can redistribute it and/or modify it under
 # the same terms as the Perl 5 programming language system itself.
@@ -11,7 +11,7 @@ package Module::Underscore;
 # ABSTRACT: convert module name to underscore string name and underscore string name to module name
 use strict;
 use warnings;
-our $VERSION = '0.1';    # VERSION
+our $VERSION = '0.2';    # VERSION
 use base 'Exporter';
 
 our @EXPORT_OK = qw(
@@ -49,7 +49,7 @@ Module::Underscore - convert module name to underscore string name and underscor
 
 =head1 VERSION
 
-version 0.1
+version 0.2
 
 =head1 METHODS
 
@@ -71,17 +71,17 @@ Any non word will be replace by "_"
 
 Any bugs or evolution can be submit here :
 
-L<Github|http://github.com/geistteufel/ModuleUnderscore>
+L<Github|http://github.com/celogeek/ModuleUnderscore>
 
 =head1
 
 =head1 AUTHOR
 
-Celogeek <geistteufel@yahoo.fr>
+celogeek <me@celogeek.com>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2011 by Geistteufel <geistteufel@celogeek.fr>.
+This software is copyright (c) 2011 by celogeek <me@celogeek.com>.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.

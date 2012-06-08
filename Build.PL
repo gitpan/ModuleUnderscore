@@ -6,34 +6,36 @@ use Module::Build 0.3601;
 
 
 my %module_build_args = (
-  'build_requires' => {
-    'Carp' => '0',
-    'English' => '0',
-    'File::Find' => '0',
-    'File::Temp' => '0',
-    'Module::Build' => '0.3601',
-    'Scalar::Util' => '0',
-    'Test::More' => '0.94',
-    'perl' => '5.004'
+  "build_requires" => {
+    "Carp" => 0,
+    "File::Find" => 0,
+    "File::Temp" => 0,
+    "Module::Build" => "0.3601",
+    "Scalar::Util" => 0,
+    "Test::More" => "0.94",
+    "perl" => "5.004"
   },
-  'configure_requires' => {
-    'Module::Build' => '0.3601'
+  "configure_requires" => {
+    "Module::Build" => "0.3601"
   },
-  'dist_abstract' => 'convert module name to underscore string name and underscore string name to module name',
-  'dist_author' => [
-    'Celogeek <geistteufel@yahoo.fr>'
+  "dist_abstract" => "convert module name to underscore string name and underscore string name to module name",
+  "dist_author" => [
+    "celogeek <me\@celogeek.com>"
   ],
-  'dist_name' => 'ModuleUnderscore',
-  'dist_version' => '0.1',
-  'license' => 'perl',
-  'module_name' => 'ModuleUnderscore',
-  'recommends' => {},
-  'recursive_test_files' => 1,
-  'requires' => {
-    'Exporter' => '0',
-    'perl' => '5.008'
+  "dist_name" => "ModuleUnderscore",
+  "dist_version" => "0.2",
+  "license" => "perl",
+  "module_name" => "ModuleUnderscore",
+  "recommends" => {},
+  "recursive_test_files" => 1,
+  "requires" => {
+    "Exporter" => 0,
+    "base" => 0,
+    "perl" => "5.008",
+    "strict" => 0,
+    "warnings" => 0
   },
-  'script_files' => []
+  "script_files" => []
 );
 
 
