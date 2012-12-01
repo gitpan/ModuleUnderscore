@@ -11,7 +11,7 @@ package Module::Underscore;
 # ABSTRACT: convert module name to underscore string name and underscore string name to module name
 use strict;
 use warnings;
-our $VERSION = '0.2';    # VERSION
+our $VERSION = '0.3';    # VERSION
 use base 'Exporter';
 
 our @EXPORT_OK = qw(
@@ -41,6 +41,8 @@ sub module_to_underscore {
 
 1;
 
+__END__
+
 =pod
 
 =head1 NAME
@@ -49,7 +51,7 @@ Module::Underscore - convert module name to underscore string name and underscor
 
 =head1 VERSION
 
-version 0.2
+version 0.3
 
 =head1 METHODS
 
@@ -69,11 +71,12 @@ Any non word will be replace by "_"
 
 =head1 BUGS
 
-Any bugs or evolution can be submit here :
+Please report any bugs or feature requests on the bugtracker website
+http://tasks.celogeek.com/projects/perl-modules-moduleunderscore
 
-L<Github|http://github.com/celogeek/ModuleUnderscore>
-
-=head1
+When submitting a bug or request, please include a test-file or a
+patch to an existing test-file that illustrates the bug or desired
+feature.
 
 =head1 AUTHOR
 
@@ -87,5 +90,3 @@ This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-
-__END__
